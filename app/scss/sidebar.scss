@@ -1,0 +1,77 @@
+.sidebar{
+    width: $sidebar-width;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: $z-index-sidebar;
+    background-color: $primary;
+}
+.sidebar__header {
+    height: 180px;
+}
+.sidebar__header img{
+    object-fit: cover;
+}
+.sidebar__content {
+    padding: 0 2rem;
+    margin-top: -5rem;
+}
+.profile__avatar {
+    position: relative;
+    width: 10rem;
+    height: 10rem;
+    margin: 0 auto 2rem;
+    border: 2px solid $white;
+    border-radius: 50%;
+}
+.profile__name {
+    font-size: 1.8rem;
+    text-align: center;
+}
+.profile__prof {
+    margin-bottom: 2rem;
+    font-size: 1.4;
+    font-weight: 300;
+    color: #DEDEDE;
+    text-align: center;
+}
+.social {
+    display: flex;
+    justify-content: center;
+}
+.social__item {
+    margin: 0 .75rem;
+}
+.profile__text{
+    padding: 3rem 0;
+    margin: 3rem 0;
+    font-size: 1.2rem;
+    text-align: center;
+    border-top: 1px solid #1c1c1c;
+    border-bottom: 1px solid #1c1c1c;
+}
+
+.sidebar__footer{
+    padding: 0 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+.btn {
+    padding: 1.1em 2.1em;
+    display: inline-block;
+    vertical-align: top;
+    font-size: 1.2rem;
+    line-height: 1.1;
+    font-weight: 500;
+    background-color: transparent;
+    color: $white;
+    border: none;
+    border-radius: 3em;
+}
+.btn--red{
+    background-color: $red;
+}
+.btn--blue {
+    background-color: $blue;
+}
