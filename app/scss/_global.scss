@@ -1,0 +1,34 @@
+html,
+body {
+	height: 100%;/*sticky footer*/
+	display: flex;/*sticky footer*/
+	flex-direction: column;/*sticky footer*/
+	margin: 0;
+	font-size: 16px;
+	line-height: 24px;
+	color: $white;
+	@extend %noto-400;
+	 background-color: #434343;
+}
+body > * {
+	flex-shrink: 0;
+	/*sticky footer*/
+  }
+.footer{
+	margin-top: auto;/*sticky footer*/
+}
+
+
+.container{
+  max-width: 1150px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+button{
+	cursor: pointer;
+}
+
+
+
+
+
