@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header__left">
+          <nav class="nav">
+            <ul class="nav__list">
+              <li class="nav__item">
+                <a class="nav__link" href="#">Главная</a>
+              </li>
+              <li class="nav__item">
+                <a class="nav__link has-subnav" href="#">Статьи</a>
+    
+                <ul class="subnav">
+                  <li>
+                    <a class="subnav__link" href="#">Создание сайтов</a>
+                  </li>
+                  <li>
+                    <a class="subnav__link" href="#">Интернет-маркетинг</a>
+                  </li>
+                  <li>
+                    <a class="subnav__link" href="#">Продвижение видео</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav__item">
+                <a class="nav__link" href="#">Обо мне</a>
+              </li>
+              <li class="nav__item">
+                <a class="nav__link" href="#">Реклама</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div class="header__right">
+          <nav class="nav">
+            <ul class="nav__list">
+              <li class="nav__item">
+                <a class="nav__link" href="#">Профиль</a>
+              </li>
+            </ul>
+          </nav>
+          <form class="search" action="/">
+            <input class="search__input" type="text" placeholder="Поиск по блогу">
+          </form>
+        </div>
+      </header>
+     
+        <aside class="sidebar">
+          <div class="sidebar__header">
+            <img src="./images/home/sidebar-bg.jpg" alt="img">
+          </div>
+          <div class="sidebar__content">
+            <div class="profile">
+              <img src="images/home/Ellipse 1.jpg" alt="img" class="profile__avatar">
+              <div class="profile__name">Сергей Анучин</div>
+              <div class="profile__prof">блог front-end разработчика</div>
+    
+              <ul class="social">
+                <li class="social__item">
+                  <a href="#" target="_blank" class="social__link">
+                    <img src="images/home/instagram (1) 1.svg" alt="img">
+                  </a>
+                </li>
+                <li class="social__item">
+                  <a href="#" target="_blank" class="social__link">
+                    <img src="images/home/vk 1.svg" alt="img">
+                  </a>
+                </li>
+                <li class="social__item">
+                  <a href="#" target="_blank" class="social__link">
+                    <img src="images/home/pinterest 1.svg" alt="img">
+                  </a>
+                </li>
+              </ul>
+              <div class="profile__text">
+                Front-end разработчик. Практик верстки сайтов.
+                Созданием сайтов занимаюсь с 2012 года. Работал в нескольких ИТ компаниях и наработал более 10 000 часов в создании сайтов различной сложности.
+              </div>
+            </div>
+          </div>
+          <div class="sidebar__footer">
+            <a href="#" class="btn btn--red">Мои работы</a>
+            <button class="btn btn--blue">Написать мне</button>
+          </div>
+        </aside>
+        <main class="main">
+            <div class="container">
+                <article class="post">
+                    <div class="post__actions">
+                        <a href="#">вернуться назад</a>
+                        <a class="post__actions-link" href="#">
+                            поделиться<img class="post__actions-icon" src="./images/post/share 1.svg" alt="img">
+                        </a>
+                    </div>
+                    <div class="post__header post__header--open">
+                        <h2 class="post__title post__title--mb0">
+                              Как писать код быстро и безболезненно?
+                        </h2>
+                        <ul class="post__data">
+                            <li class="post__data-item">
+                              <time datetime="2023-01-13">2023-01-13</time>
+                            </li>
+                            <li class="post__data-item">
+                              <a href="#">создание сайтов</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="post__content">
+                      <div class="post__text">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elementum volutpat orci turpis urna. Et vestibulum, posuere tortor lacinia sit. Sagittis porttitor orci auctor in at tincidunt arcu egestas. Fusce arcu sodales lacinia eu auctor nunc nam id. Diam sit sed volutpat massa. Egestas ornare vel volutpat.
+                        </p>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elementum volutpat orci turpis urna. Et vestibulum, posuere tortor lacinia sit. Sagittis porttitor orci auctor in at tincidunt arcu egestas. Fusce arcu sodales lacinia eu auctor nunc nam id. Diam sit sed volutpat massa. Egestas ornare vel volutpat.
+                        </p>
+
+                        <img  src="./images/post/post.img" alt="">
+
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elementum volutpat orci turpis urna. Et vestibulum, posuere tortor lacinia sit. Sagittis porttitor orci auctor in at tincidunt arcu egestas. Fusce arcu sodales lacinia eu auctor nunc nam id. Diam sit sed volutpat massa. Egestas ornare vel volutpat.
+                        </p>
+                      </div>
+
+                      <div class="related">
+                            <h3 class="related__title">Интересно почитать</h3>
+                            <ul class="related__list">
+                                <li class="related__list-item">
+                                    <h4 class="related__list-title">
+                                        <a href="#">Как я сходил на FrontEnd Conf 2021</a>
+                                    </h4>
+                                    <time class="related__list-date" datetime="18.01.2023">18.01.2023</time>
+                                </li>
+                                <li class="related__list-item">
+                                    <h4 class="related__list-title">
+                                        <a href="#">Как я сходил на FrontEnd Conf 2021   Как я сходил на FrontEnd Conf 2021</a>
+                                    </h4>
+                                    <time class="related__list-date" datetime="18.01.2023">18.01.2023</time>
+                                </li>
+                                <li class="related__list-item">
+                                    <h4 class="related__list-title">
+                                        <a href="#">Как я сходил на FrontEnd Conf 2021 </a>
+                                    </h4>
+                                    <time class="related__list-date" datetime="18.01.2023">18.01.2023</time>
+                                </li>
+                                <li class="related__list-item">
+                                    <h4 class="related__list-title">
+                                        <a href="#">Как я сходил на FrontEnd Conf 2021</a>
+                                    </h4>
+                                    <time class="related__list-date" datetime="18.01.2023">18.01.2023</time>
+                                </li>
+                            </ul>
+                      </div><!-- related -->
+                    </div>
+
+                    <div class="comments">
+                        <h3 class="comments__title">Обсуждение</h3>
+                        <form action="/" class="form" method="post">
+                            <div class="form__group">
+                                <textarea class="form__control" name="comment-text" placeholder="Текст комментария"></textarea>
+                             <span class="form__line"></span>
+                            </div>
+                            <button class="btn btn--blue btn--routed">Отправить</button>
+                        </form>
+                    </div>
+                  </article>
+            </div>
+        </main>
+</body>
+</html>
