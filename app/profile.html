@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.min.css">
+</head>
+<body>
+<header class="header">
+    <div class="header__left">
+        <nav class="nav">
+        <ul class="nav__list">
+            <li class="nav__item">
+            <a class="nav__link" href="#">Главная</a>
+            </li>
+            <li class="nav__item">
+            <a class="nav__link has-subnav" href="#">Статьи</a>
+
+            <ul class="subnav">
+                <li>
+                <a class="subnav__link" href="#">Создание сайтов</a>
+                </li>
+                <li>
+                <a class="subnav__link" href="#">Интернет-маркетинг</a>
+                </li>
+                <li>
+                <a class="subnav__link" href="#">Продвижение видео</a>
+                </li>
+            </ul>
+            </li>
+            <li class="nav__item">
+            <a class="nav__link" href="#">Обо мне</a>
+            </li>
+            <li class="nav__item">
+            <a class="nav__link" href="#">Реклама</a>
+            </li>
+        </ul>
+        </nav>
+    </div>
+    <div class="header__right">
+        <nav class="nav">
+        <ul class="nav__list">
+            <li class="nav__item">
+            <a class="nav__link" href="#">Профиль</a>
+            </li>
+        </ul>
+        </nav>
+        <form class="search" action="/">
+        <input class="search__input" type="text" placeholder="Поиск по блогу">
+        </form>
+    </div>
+</header>
+     
+<aside class="sidebar">
+    <div class="sidebar__header">
+    <img src="./images/home/sidebar-bg.jpg" alt="img">
+    </div>
+    <div class="sidebar__content">
+    <div class="profile">
+        <img src="images/home/Ellipse 1.jpg" alt="img" class="profile__avatar">
+        <div class="profile__name">Сергей Анучин</div>
+        <div class="profile__prof">блог front-end разработчика</div>
+
+        <ul class="social">
+        <li class="social__item">
+            <a href="#" target="_blank" class="social__link">
+            <img src="images/home/instagram (1) 1.svg" alt="img">
+            </a>
+        </li>
+        <li class="social__item">
+            <a href="#" target="_blank" class="social__link">
+            <img src="images/home/vk 1.svg" alt="img">
+            </a>
+        </li>
+        <li class="social__item">
+            <a href="#" target="_blank" class="social__link">
+            <img src="images/home/pinterest 1.svg" alt="img">
+            </a>
+        </li>
+        </ul>
+        <div class="profile__text">
+        Front-end разработчик. Практик верстки сайтов.
+        Созданием сайтов занимаюсь с 2012 года. Работал в нескольких ИТ компаниях и наработал более 10 000 часов в создании сайтов различной сложности.
+        </div>
+    </div>
+    </div>
+    <div class="sidebar__footer">
+    <a href="#" class="btn btn--red">Мои работы</a>
+    <button class="btn btn--blue">Написать мне</button>
+    </div>
+</aside>
+        
+<main class="main">
+    <div class="container">
+        <h1 class="page__title">Профиль</h1>
+
+        <form action="/" class="form">
+            <div class="cabinet">
+                <div class="cabinet__form">
+                    <div class="form__group">
+                        <input type="text" class="form__control" placeholder="Ваше имя">
+                        <span class="form__line"></span>
+                    </div>
+                    <div class="form__group">
+                        <input type="email" class="form__control" placeholder="Ваше email">
+                        <span class="form__line"></span>
+                    </div>
+                    <div class="form__group">
+                        <input type="password" class="form__control" placeholder="Пароль">
+                        <span class="form__line"></span>
+                    </div>
+                    <div class="form__group">
+                        <input type="password" class="form__control" placeholder="Подтвертдите пароль">
+                        <span class="form__line"></span>
+                    </div>
+                </div>
+                    <div class="cabinet__avatar">
+                        <img src="./images/profile/avatar.jpg" alt="">
+                        <label class="cabinet__file">
+                            <input type="file">
+                            выбрать аватар
+                        </label>
+                    </div>
+            </div>
+                <button class="btn btn--blue btn--rounded">Сохранить</button>
+        </form>
+          
+         
+      
+        
+    </div>
+</main>
+</body>
+</html>

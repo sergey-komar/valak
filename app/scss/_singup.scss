@@ -1,0 +1,23 @@
+.page__title--center{
+    text-align: center;
+}
+.form--auth{
+    max-width: 28rem;
+    margin: 0  auto;
+}
+.form__footer--center{
+    text-align: center;
+}
+.form__footer-list{
+    display: flex;
+    justify-content: center;
+}
+.form__footer-list li{
+    margin: 0 .5rem;
+}
+.form__footer-list li a{
+    color: $white;
+}
+.form__footer-list li a:hover{
+    text-decoration: underline;
+}

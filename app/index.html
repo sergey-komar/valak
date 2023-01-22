@@ -40,6 +40,9 @@
           </li>
         </ul>
       </nav>
+      <button class="burger active">
+        <span></span>
+      </button>
     </div>
     <div class="header__right">
       <nav class="nav">
@@ -49,6 +52,8 @@
           </li>
         </ul>
       </nav>
+      
+
       <form class="search" action="/">
         <input class="search__input" type="text" placeholder="Поиск по блогу">
       </form>
@@ -256,7 +261,41 @@
         </ul>
     </div>
   </main>
-    <footer class="footer"></footer>
+    <footer class="footer">
+
+    </footer>
+
+
+ <div class="modal">
+    <div class="modal__content">
+      <form action="/" class="form form--auth">
+        <div class="cabinet__form">
+            <div class="form__group">
+                <input type="text" class="form__control" placeholder="Ваше имя">
+                <span class="form__line"></span>
+            </div>
+            <div class="form__group">
+                <input type="email" class="form__control" placeholder="Ваше email">
+                <span class="form__line"></span>
+            </div>
+            <div class="form__group">
+              <textarea  class="form__control" placeholder="Текст сообщения"></textarea>
+              <span class="form__line"></span>
+          </div>
+       
+        </div>
+        <div class="form__footer">
+            <div class="form__group form__group--md">
+                <button class="btn btn--blue btn--rounded">отправить</button>
+            </div>
+        </div>
+     </form><!--form -->
+     <button class="modal__close" type="button">
+        <img src="./images/home/close.svg" alt="img">
+     </button>
+    </div><!--modal__content -->
+ </div><!--modal-->
+
  
 
 
